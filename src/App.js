@@ -28,7 +28,7 @@ export default function App() {
 
       <div className="grid grid-cols-12">
         <div className="lg:col-span-4 col-span-12 shadow-md">
-          <div style={{ height: '90vh' }}>
+          <div style={{ height: '90vh' }} className="overflow-hidden">
             <Time date={new Date()} />
             <Announcement />
           </div>
